@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/marius/Desktop/my_licenta_app_5/app/views/users'
+let g:netrw_dirhist_2='/home/marius/Desktop/my_licenta_app_5/app/views/domenius'
+let g:netrw_dirhist_3='/home/marius/djcode/TwitterDataAnalysis/app/templates/app'
+let g:netrw_dirhist_4='/Users/marius/Documents/GitHub'
+let g:netrw_dirhist_5='/Users/marius/github/marius92mc.github.io'
