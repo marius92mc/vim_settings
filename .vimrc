@@ -1,5 +1,7 @@
 map <F7> :NERDTreeToggle<CR>    
-						  
+
+set backspace=2
+
    "nerdtree-F7, tag-bar-F8, last line-G,first line-gg,linia x- :x, insert mode-i,normal mode-Esc,undo-u,redo- CTRL+r,refresh - :e
    "tab nou - :tabnew nume.in, inchidere tab - :tabclose, switch between tabs - CTRL+PgUp/PgDn sau CTRL+ALT+PgUp/PgDn
    "pentru a vedea map-ing-ul tastelor, scriu :map, in normal mode, CTRL+n si CTRL+p pt up si down
@@ -79,7 +81,7 @@ set history=200
 set ruler
 set tabstop=4
 set title
-colorscheme desert
+colorscheme pablo
 
 "Highlight search
 set hls 
