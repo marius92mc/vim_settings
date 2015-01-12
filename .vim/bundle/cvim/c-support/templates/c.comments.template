@@ -37,9 +37,10 @@
  *        Version:  1.0
  *        Created:  |DATE| |TIME|
  *       Revision:  none
- *       Compiler:  gcc
+ *       Compiler:  gcc/g++
  *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
+ *         Author:  |AUTHOR| |AUTHORREF| 
+ *          email:  |EMAIL|
  *   Organization:  |ORGANIZATION|
  *
  * =====================================================================================

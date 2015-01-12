@@ -2313,7 +2313,7 @@ function! s:C_RereadTemplates ( displaymsg )
 		if filereadable( s:C_LocalTemplateFile )
 			call mmtemplates#core#ReadTemplates ( g:C_Templates, 'load', s:C_LocalTemplateFile )
 			let messsage	= messsage." and '".s:C_LocalTemplateFile."'"
-			if mmtemplates#core#ExpandText( g:C_Templates, '|AUTHOR|' ) == 'YOUR NAME'
+			if mmtemplates#core#ExpandText( g:C_Templates, '|AUTHOR|' ) == 'Marius'
 				echomsg "Please set your personal details in file '".s:C_LocalTemplateFile."'."
 			endif
 		endif
