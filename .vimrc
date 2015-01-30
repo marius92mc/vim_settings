@@ -14,7 +14,9 @@ set backspace=2
 
 call pathogen#infect() 
 set smartindent
+set tabstop=4
 set shiftwidth=4
+set expandtab
 set number
 set history=1000
 set undolevels=1000
