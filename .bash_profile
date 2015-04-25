@@ -36,3 +36,13 @@ alias grep="grep --color=auto"
 
 
 
+#   spotlight: Search for a file using MacOS Spotlight's metadata
+#   -----------------------------------------------------------
+    spotlight () 
+    { 
+        mdfind "kMDItemDisplayName == '$@'wc"; 
+    }
+
+
+
+
