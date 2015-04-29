@@ -6,7 +6,7 @@ export PATH
 
 alias ls="ls -G"
 alias grep="grep --color=auto"
-
+alias rm="rm -i"
 
 
 
