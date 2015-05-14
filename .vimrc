@@ -13,11 +13,15 @@ set backspace=2
    " pot folosi shift+square_bracket
 
 call pathogen#infect() 
-set smartindent
+
+"set smartindent
+"filetype plugin indent on         // for curly braces autocomplete
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
 set number
+
 set history=1000
 set undolevels=1000
 set backupdir=~/.vim-tmp/ "acest director trebuie creat de mana intai
