@@ -12,6 +12,14 @@ set backspace=2
    " pentru a scroll-a mai multe randuri, mai exact, intre randurile goale, 
    " pot folosi shift+square_bracket
 
+" Shortcuts
+   " 0 start of line; ^ first non-whitespace                   !important
+   " $ end of line                                             !important
+   " o open new line below; O open new line above              !important
+   " { previous blank line; } next blank line
+   " u undo; ^R redo
+   " % jump to matching parenthesis/bracket/brace
+
 call pathogen#infect() 
 
 "set smartindent
