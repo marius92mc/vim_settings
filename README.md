@@ -1,7 +1,8 @@
-Vim settings.
- 
-Just copy them into your "home" directory.
+# Dotfiles 
 
+## Usage 
+
+Just copy them into your "home" directory.
 
 About ".vim-tmp" directory from "home"
 	If this directory is not appearing, it has to be 
