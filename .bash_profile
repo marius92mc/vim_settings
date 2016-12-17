@@ -96,5 +96,4 @@ export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/pyhon/lib/py4j-0.9-src.zip:$PYT
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 
-GITHUB_API_TOKEN=11c70a3136eb19da8d2efff8710c78f9a8b5ad29
 
