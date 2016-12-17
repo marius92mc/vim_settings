@@ -21,10 +21,11 @@ export PS1='\033[32m\]\u\[\033[32m\]@\[\033[32m\]\h\[\033[m\]:\[\033[33m\]$(__gi
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH=${PATH}:~/Downloads/platform-tools
 export PATH
 
 alias ls="ls -G"
-alias grep="grep --color=auto"
+alias grep="grep -inE --color=auto"
 alias rm="rm -i"
 
 
@@ -77,4 +78,23 @@ alias rm="rm -i"
         #echo -e "\n${RED}DNS Configuration:$NC " ; scutil --dns
         echo
     }
+
+
+##
+# Your previous /Users/marius/.bash_profile file was backed up as /Users/marius/.bash_profile.macports-saved_2015-12-29_at_12:22:39
+##
+
+# MacPorts Installer addition on 2015-12-29_at_12:22:39: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+export PYSPARK_PYTHON=python3
+export SPARK_HOME=~/Downloads/spark-2.0.1-bin-hadoop2.7
+export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
+export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/pyhon/lib/py4j-0.9-src.zip:$PYTHONPATH
+
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+
+GITHUB_API_TOKEN=11c70a3136eb19da8d2efff8710c78f9a8b5ad29
 
