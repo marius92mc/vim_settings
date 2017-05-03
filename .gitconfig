@@ -1,6 +1,14 @@
 [user]
-	name = marius92mc
-	email = marius_92m@yahoo.com
+  # Use 
+  #   $ git config --global user.name "<fullname>"
+  #   $ git config --global user.email "<primary email from the GitHub account>"
+  #   
+  # Use "--local" instead of "--global" for changes in local repos, not 
+  # global git configuration. 
+  # 
+  #  
+  # name = marius92mc
+  # email = marius_92m@yahoo.com
 [credential]
 	helper = osxkeychain
 
