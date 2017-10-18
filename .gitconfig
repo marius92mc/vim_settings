@@ -6,9 +6,12 @@
   # Use "--local" instead of "--global" for changes in local repos, not 
   # global git configuration. 
   # 
-  #  
-  # name = marius92mc
-  # email = marius_92m@yahoo.com
+
+# After installing Meld
+# $ git config --global diff.tool meld
+# $ git config --global merge.tool meld
+# $ git config --global --add difftool.prompt false
+
 [credential]
 	helper = osxkeychain
 
