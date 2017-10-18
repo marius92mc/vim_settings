@@ -95,5 +95,5 @@ export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/pyhon/lib/py4j-0.9-src.zip:$PYT
 
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
-
+export PIPENV_VENV_IN_PROJECT=1
 
