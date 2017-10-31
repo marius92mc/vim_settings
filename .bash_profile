@@ -97,3 +97,6 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 export PIPENV_VENV_IN_PROJECT=1
 
+
+export GOPATH=/usr/local/bin/go
+
