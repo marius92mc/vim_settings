@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/marius/cpp'
-let g:netrw_dirhist_2='/home/marius/cpp/sample'
-let g:netrw_dirhist_3='/home/marius/cpp/sursePython'
-let g:netrw_dirhist_4='/home/marius/cpp/sample'
-let g:netrw_dirhist_5='/media/E4865E27865DFB0E/Materiale_facultate/Anul 3/Calcul Numeric'
-let g:netrw_dirhist_6='/home/marius/a'
