@@ -29,6 +29,12 @@ alias grep="grep -inE --color=auto"
 alias rm="rm -i"
 
 
+# Set title for the current iTerm2 tab.
+# Usage: `$ title Hello`
+function title {
+    echo -ne "\033]0;"$*"\007"
+}
+
 
 #   extract:  Extract most know archives with one command
 #   ---------------------------------------------------------
